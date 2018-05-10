@@ -12,16 +12,16 @@ namespace LibreriaBasura.Classes
 
         public Inventario()
         {
-             catalogo = new List<Libro>();
+            catalogo = new List<Libro>();
         }
-        
-        public void addLibro(string titulo, string autor, float precio, LCarac caracteristicas)
+
+        public void AddLibro(string titulo, string autor, float precio, LCarac caracteristicas)
         {
             Libro libro = new Libro(titulo, autor, precio, caracteristicas);
             catalogo.Add(libro);
         }
 
-        public Libro getLibro(string nombreABuscar)
+        public Libro GetLibro(string nombreABuscar)
         {
             foreach (Libro libros in catalogo)
             {
@@ -32,7 +32,18 @@ namespace LibreriaBasura.Classes
             }
             return null;
         }
-        
 
+        public List<Libro> Buscar(LCarac libroToSearchByCaract)
+        {
+            List<Libro> LEncontrados = new List<Libro>();
+            foreach (Libro libros in catalogo)
+            {
+                Libro libroToAdd = libros;
+                if (libros.Caract.matches(libroToSearchByCaract))
+                    LEncontrados.Add(libroToAdd);
+            }
+            return LEncontrados;
+        }
+        
     }
 }

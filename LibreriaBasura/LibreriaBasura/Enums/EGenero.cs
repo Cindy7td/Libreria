@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasura.Enums
 {
-    public enum Genero { Terror, Misterio, Romance, CienciaFiccion, Fantasia, Aventura}
+    public enum Genero { Terror, Misterio, Romance, CienciaFiccion, NoFiccion, Aventura}
 
     static class EGenero
     {
@@ -22,8 +22,8 @@ namespace LibreriaBasura.Enums
                     return "Misterio";
                 case Genero.CienciaFiccion:
                     return "Ciencia Ficcion";
-                case Genero.Fantasia:
-                    return "Fantasia";
+                case Genero.NoFiccion:
+                    return "No Ficcion";
                 case Genero.Aventura:
                     return "Aventura";
                 default:
