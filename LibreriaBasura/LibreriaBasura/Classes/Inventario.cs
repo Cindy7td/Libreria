@@ -15,10 +15,11 @@ namespace LibreriaBasura.Classes
             catalogo = new List<Libro>();
         }
 
-        public void AddLibro(string titulo, string autor, float precio, LCarac caracteristicas)
+        public void AddLibro(string titulo, string autor, float precio, LCarac caracteristicas, UVendedor vendedor)
         {
             Libro libro = new Libro(titulo, autor, precio, caracteristicas);
             catalogo.Add(libro);
+            vendedor.MisLibros.Add(libro);
         }
 
         public Libro GetLibro(string nombreABuscar)
