@@ -8,11 +8,5 @@ namespace LibreriaBasuraForms.Utilities.IO
 {
     class Lectura
     {
-        public static string[] leer()
-        {
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Temp\Log_in.txt");
-
-            return lines;
-        }
     }
 }
