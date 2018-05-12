@@ -6,21 +6,17 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasuraForms.Classes
 {
-    class Inventario
+    public class Inventario
     {
         List<Libro> catalogo;
+
+        internal List<Libro> Catalogo { get => catalogo; set => catalogo = value; }
 
         public Inventario()
         {
             catalogo = new List<Libro>();
         }
 
-        public void AddLibro(string titulo, string autor, float precio, LCarac caracteristicas, UVendedor vendedor)
-        {
-            Libro libro = new Libro(titulo, autor, precio, caracteristicas);
-            catalogo.Add(libro);
-            vendedor.MisLibros.Add(libro);
-        }
 
         public Libro GetLibro(string nombreABuscar)
         {
@@ -45,6 +41,13 @@ namespace LibreriaBasuraForms.Classes
             }
             return LEncontrados;
         }
-        
+
+        public void ComprarLibro(List<Libro> lVendedor, Libro clibro)
+        {
+            catalogo.Remove(clibro);
+            lVendedor.Remove(clibro);
+
+        }
+
     }
 }

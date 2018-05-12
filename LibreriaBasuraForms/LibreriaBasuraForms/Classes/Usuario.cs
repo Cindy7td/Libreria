@@ -6,22 +6,18 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasuraForms.Classes
 {
-    abstract class Usuario
+    public abstract class Usuario
     {
-        string email, nombre, contrasenia;
+        string nombre;
         float dinero;
 
-        public Usuario(string email, string nombre, string contrasenia, float dinero)
+        public Usuario(string nombre, float dinero)
         {
-            this.email = email;
             this.nombre = nombre;
-            this.contrasenia = contrasenia;
             this.dinero = dinero;
         }
 
         public float Dinero { get => dinero; set => dinero = value; }
         public string Nombre { get => nombre; set => nombre = value; }
-        public string Contrasenia { get => contrasenia; set => contrasenia = value; }
-        public string Email { get => email; set => email = value; }
     }
 }
