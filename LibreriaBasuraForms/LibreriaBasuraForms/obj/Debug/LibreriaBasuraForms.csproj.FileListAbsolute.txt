@@ -1,0 +1,11 @@
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\bin\Debug\LibreriaBasuraForms.exe.config
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\bin\Debug\LibreriaBasuraForms.exe
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\bin\Debug\LibreriaBasuraForms.pdb
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\obj\Debug\LibreriaBasuraForms.csprojResolveAssemblyReference.cache
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\obj\Debug\LibreriaBasuraForms.Form1.resources
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\obj\Debug\LibreriaBasuraForms.Properties.Resources.resources
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\obj\Debug\LibreriaBasuraForms.csproj.GenerateResource.Cache
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\obj\Debug\LibreriaBasuraForms.csproj.CoreCompileInputs.cache
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\obj\Debug\LibreriaBasuraForms.exe
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\obj\Debug\LibreriaBasuraForms.pdb
+C:\Users\cindy\Documents\Programacion 2 semestre\Libreria\LibreriaBasuraForms\LibreriaBasuraForms\obj\Debug\LibreriaBasuraForms.FormComprador.resources

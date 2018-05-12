@@ -12,19 +12,46 @@ using LibreriaBasuraForms.Enums;
 using LibreriaBasuraForms.Utilities;
 
 namespace LibreriaBasuraForms
-{
+{ 
     public partial class Form1 : Form
     {
+        UVendedor vendedor;
+        Inventario inventario;
+
         public Form1()
         {
             InitializeComponent();
 
-            Inventario inventario = new Inventario();
-            UVendedor vend1 = new UVendedor("Juan", 200f);
+            vendedor = new UVendedor("Juan", 200f);
+            inventario = new Inventario();
+            comboBox1.DataSource = Enum.GetValues(typeof(Genero));
 
-            inventario.AddLibro("Kill a Mockingbird", "Lee", 400f, new LCarac(Genero.NoFiccion), vend1);
-            inventario.AddLibro("Viaje mas largo", "Nicholas Sparks", 150f, new LCarac(Genero.Romance), vend1);
-            inventario.AddLibro("Harry Potter", "J.K.Rowling", 169f, new LCarac(Genero.Aventura), vend1);
+        }
+
+        private void bttnAlta_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+
+            dt.Columns.Add("");
+            dt.Rows.Add(new object[] {""});
+
+            //Genero gen = comboBox1.SelectedValue;
+            var cbgenero = (Genero)Enum.Parse(typeof(Genero), comboBox1.SelectedValue.ToString());
+            
+            vendedor.AddLibro(inventario.Catalogo, txtTitulo.Text, txtAutor.Text,
+                                float.Parse(txtPrecio.Text), new LCarac(cbgenero));
+
+            dataGridView2.DataSource = dt;
+            dataGridView1.DataSource = dt;
+
+            dataGridView1.DataSource = inventario.Catalogo;
+            dataGridView2.DataSource = vendedor.MisLibros;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var myForm = new FormComprador(inventario, vendedor);
+            myForm.Show();
         }
     }
 }

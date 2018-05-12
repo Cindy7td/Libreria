@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasuraForms.Classes
 {
-    abstract class Usuario
+    public abstract class Usuario
     {
         string nombre;
         float dinero;

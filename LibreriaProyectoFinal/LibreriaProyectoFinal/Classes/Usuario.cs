@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibreriaBasura.Classes
+namespace LibreriaBasuraForms.Classes
 {
-    abstract class Usuario
+    public abstract class Usuario
     {
         string nombre;
         float dinero;

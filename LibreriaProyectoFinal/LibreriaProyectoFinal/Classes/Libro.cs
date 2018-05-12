@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibreriaBasura.Classes
+namespace LibreriaBasuraForms.Classes
 {
-    class Libro
+    public class Libro
     {
         string titulo, autor;
         float precio;
@@ -25,5 +25,10 @@ namespace LibreriaBasura.Classes
         public string Autor { get => autor; set => autor = value; }
         public float Precio { get => precio; set => precio = value; }
         internal LCarac Caract { get => caract; set => caract = value; }
+
+        public override string ToString()
+        {
+            return titulo;
+        }
     }
 }

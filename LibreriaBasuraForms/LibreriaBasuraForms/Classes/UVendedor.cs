@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasuraForms.Classes
 {
-    class UVendedor : Usuario
+    public class UVendedor : Usuario
     {
         List<Libro> misLibros;
 
@@ -17,6 +17,11 @@ namespace LibreriaBasuraForms.Classes
 
         internal List<Libro> MisLibros { get => misLibros; set => misLibros = value; }
 
-
+        public void AddLibro(List<Libro> lL, string titulo, string autor, float precio, LCarac caracteristicas)
+        {
+            Libro libro = new Libro(titulo, autor, precio, caracteristicas);
+            misLibros.Add(libro);
+            lL.Add(libro);
+        }
     }
 }
