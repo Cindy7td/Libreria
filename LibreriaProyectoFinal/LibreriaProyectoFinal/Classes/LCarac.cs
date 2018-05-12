@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using LibreriaBasura.Enums;
+using LibreriaBasuraForms.Enums;
 
-namespace LibreriaBasura.Classes
+namespace LibreriaBasuraForms.Classes
 {
-    class LCarac
+    public class LCarac
     {
         Genero genero;
 

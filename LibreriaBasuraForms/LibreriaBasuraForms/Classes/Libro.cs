@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasuraForms.Classes
 {
-    class Libro
+    public class Libro
     {
         string titulo, autor;
         float precio;

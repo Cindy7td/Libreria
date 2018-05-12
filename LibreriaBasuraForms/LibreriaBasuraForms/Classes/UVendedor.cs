@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasuraForms.Classes
 {
-    class UVendedor : Usuario
+    public class UVendedor : Usuario
     {
         List<Libro> misLibros;
 

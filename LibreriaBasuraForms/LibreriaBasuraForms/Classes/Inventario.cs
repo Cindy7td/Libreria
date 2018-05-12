@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasuraForms.Classes
 {
-    class Inventario
+    public class Inventario
     {
         List<Libro> catalogo;
 
@@ -41,6 +41,13 @@ namespace LibreriaBasuraForms.Classes
             }
             return LEncontrados;
         }
-        
+
+        public void ComprarLibro(List<Libro> lVendedor, Libro clibro)
+        {
+            catalogo.Remove(clibro);
+            lVendedor.Remove(clibro);
+
+        }
+
     }
 }
