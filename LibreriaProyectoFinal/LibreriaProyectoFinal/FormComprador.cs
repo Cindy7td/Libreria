@@ -65,7 +65,7 @@ namespace LibreriaBasuraForms
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bttnBuscarG_Click(object sender, EventArgs e)
         {
             Genero tGenero;
             try

@@ -108,7 +108,7 @@
             // 
             this.bttnBuscar.Location = new System.Drawing.Point(196, 98);
             this.bttnBuscar.Name = "bttnBuscar";
-            this.bttnBuscar.Size = new System.Drawing.Size(203, 42);
+            this.bttnBuscar.Size = new System.Drawing.Size(203, 62);
             this.bttnBuscar.TabIndex = 8;
             this.bttnBuscar.Text = "Buscar";
             this.bttnBuscar.UseVisualStyleBackColor = true;
@@ -118,11 +118,11 @@
             // 
             this.button1.Location = new System.Drawing.Point(707, 98);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(191, 42);
+            this.button1.Size = new System.Drawing.Size(191, 62);
             this.button1.TabIndex = 9;
-            this.button1.Text = "button1";
+            this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.bttnBuscarG_Click);
             // 
             // label3
             // 
