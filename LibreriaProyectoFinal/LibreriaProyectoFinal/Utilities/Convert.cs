@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using LibreriaBasura.Classes;
+using LibreriaProyectoFinal.Classes;
 
-namespace LibreriaBasura.Utilities
+namespace LibreriaProyectoFinal.Utilities
 {
     class Convert
     {

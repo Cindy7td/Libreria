@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibreriaBasuraForms.Enums
+namespace LibreriaProyectoFinal.Enums
 {
     public enum Genero { Terror, Misterio, Romance, CienciaFiccion, NoFiccion, Aventura}
 

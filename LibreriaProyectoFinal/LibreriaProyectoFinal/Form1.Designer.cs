@@ -1,4 +1,4 @@
-﻿namespace LibreriaBasuraForms
+﻿namespace LibreriaProyectoFinal
 {
     partial class Form1
     {

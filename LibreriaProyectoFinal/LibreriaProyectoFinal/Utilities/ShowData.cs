@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using LibreriaBasuraForms.Classes;
+using LibreriaProyectoFinal.Classes;
 
-namespace LibreriaBasuraForms.Utilities
+namespace LibreriaProyectoFinal.Utilities
 {
     class ShowData
     {

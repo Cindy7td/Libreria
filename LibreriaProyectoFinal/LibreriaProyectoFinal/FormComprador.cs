@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using LibreriaBasuraForms.Classes;
-using LibreriaBasuraForms.Enums;
-using LibreriaBasuraForms.Utilities;
+using LibreriaProyectoFinal.Classes;
+using LibreriaProyectoFinal.Enums;
+using LibreriaProyectoFinal.Utilities;
 
 
-namespace LibreriaBasuraForms
+namespace LibreriaProyectoFinal
 {
     public partial class FormComprador : Form
     {

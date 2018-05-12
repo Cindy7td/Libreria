@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using LibreriaBasuraForms.Classes;
+using LibreriaProyectoFinal.Classes;
 
-namespace LibreriaBasuraForms.Classes
+namespace LibreriaProyectoFinal.Classes
 {
     class UComprador: Usuario
     {

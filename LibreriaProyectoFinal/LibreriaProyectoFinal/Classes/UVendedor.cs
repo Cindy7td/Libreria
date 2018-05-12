@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibreriaBasuraForms.Classes
+namespace LibreriaProyectoFinal.Classes
 {
     public class UVendedor : Usuario
     {
