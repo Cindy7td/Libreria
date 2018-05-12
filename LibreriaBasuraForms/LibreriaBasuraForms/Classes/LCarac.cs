@@ -7,7 +7,7 @@ using LibreriaBasuraForms.Enums;
 
 namespace LibreriaBasuraForms.Classes
 {
-    public class LCarac
+    class LCarac
     {
         Genero genero;
 

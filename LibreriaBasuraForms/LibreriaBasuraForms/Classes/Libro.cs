@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaBasuraForms.Classes
 {
-    public class Libro
+    class Libro
     {
         string titulo, autor;
         float precio;
@@ -25,10 +25,5 @@ namespace LibreriaBasuraForms.Classes
         public string Autor { get => autor; set => autor = value; }
         public float Precio { get => precio; set => precio = value; }
         internal LCarac Caract { get => caract; set => caract = value; }
-
-        public override string ToString()
-        {
-            return titulo;
-        }
     }
 }
