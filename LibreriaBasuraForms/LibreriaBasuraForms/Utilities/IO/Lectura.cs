@@ -8,5 +8,6 @@ namespace LibreriaBasuraForms.Utilities.IO
 {
     class Lectura
     {
+
     }
 }

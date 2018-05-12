@@ -8,12 +8,12 @@ namespace LibreriaBasuraForms.Classes
 {
     abstract class Usuario
     {
-        string id = new Random().Next(0, 10000).ToString("D6");
-        string nombre, contrasenia;
+        string email, nombre, contrasenia;
         float dinero;
 
-        public Usuario(string nombre, string contrasenia, float dinero)
+        public Usuario(string email, string nombre, string contrasenia, float dinero)
         {
+            this.email = email;
             this.nombre = nombre;
             this.contrasenia = contrasenia;
             this.dinero = dinero;
@@ -22,6 +22,6 @@ namespace LibreriaBasuraForms.Classes
         public float Dinero { get => dinero; set => dinero = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public string Contrasenia { get => contrasenia; set => contrasenia = value; }
-        public string Id { get => id; set => id = value; }
+        public string Email { get => email; set => email = value; }
     }
 }

@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,7 @@
     <Compile Include="Classes\Inventario.cs" />
     <Compile Include="Classes\LCarac.cs" />
     <Compile Include="Classes\Libro.cs" />
+    <Compile Include="Classes\ManejoDatos.cs" />
     <Compile Include="Classes\UComprador.cs" />
     <Compile Include="Classes\Usuario.cs" />
     <Compile Include="Classes\UVendedor.cs" />

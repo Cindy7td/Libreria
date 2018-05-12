@@ -10,7 +10,7 @@ namespace LibreriaBasuraForms.Classes
     {
         List<Libro> misLibros;
 
-        public UVendedor(string nombre, string contrasenia, float dinero): base(nombre, contrasenia, dinero)
+        public UVendedor(string email, string nombre, string contrasenia, float dinero): base(email, nombre, contrasenia, dinero)
         {
             misLibros = new List<Libro>();
         }

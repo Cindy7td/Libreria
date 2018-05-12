@@ -8,7 +8,7 @@ namespace LibreriaBasuraForms.Classes
 {
     class UComprador: Usuario
     {
-        public UComprador(string nombre, string contrasenia, float dinero):base(nombre, contrasenia, dinero)
+        public UComprador(string email, string nombre, string contrasenia, float dinero): base(email, nombre, contrasenia, dinero)
         {
 
         }
