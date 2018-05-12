@@ -10,17 +10,13 @@ namespace LibreriaBasuraForms.Classes
     {
         List<Libro> catalogo;
 
+        internal List<Libro> Catalogo { get => catalogo; set => catalogo = value; }
+
         public Inventario()
         {
             catalogo = new List<Libro>();
         }
 
-        public void AddLibro(string titulo, string autor, float precio, LCarac caracteristicas, UVendedor vendedor)
-        {
-            Libro libro = new Libro(titulo, autor, precio, caracteristicas);
-            catalogo.Add(libro);
-            vendedor.MisLibros.Add(libro);
-        }
 
         public Libro GetLibro(string nombreABuscar)
         {
